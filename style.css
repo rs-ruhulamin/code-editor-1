@@ -1,0 +1,82 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&family=Baloo+Da+2:wght@500;600;700;800&family=Kaushan+Script&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+
+.head{
+  background-color: #282A3A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 0;
+}
+
+.main-content .html{
+  background-color: #191A19;
+  width: 100vw;
+
+}
+.html p{
+  padding: 10px 0;
+
+}
+.html textarea{
+  border: none;
+  outline: none;
+  width: 100%;
+  background: none;
+  height: 400px;
+  padding: 20px;
+  font-size: 16px;
+}
+
+.h-text{
+  font-family: 'Kaushan Script', cursive;
+
+}
+
+.d-text{
+  font-family: 'Baloo Da 2', cursive;
+}
+
+
+#code{
+  width: 100vw;
+  padding: 20px;
+  border: none;
+}
+
+
+
+.h-text {
+  color: #fff;
+}
+.d-text {
+  color: #D8E9A8;
+}
+.html p {
+  color: #fff;
+  font-size: 18px;
+  border-bottom: 1px solid;
+  font-family: 'Baloo Da 2', cursive;
+  padding-left: 10px;
+}
+
+.html textarea {
+  color: #Fff;
+  font-family: 'Atma', cursive;
+}
+
+.html-output p {
+  font-size: 18px;
+  padding: 10px;
+  border-bottom: 1px solid;
+  font-family: 'Baloo Da 2', cursive;
+}
